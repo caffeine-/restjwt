@@ -45,9 +45,11 @@ See these resources:
 
 ## What good is this?
 
-My personal use-case was needing to decode and verify JWT in a test/debugging
-environment (i.e. security wasn't a concern) where I couldn't easily decode
-JWTs myself or use an available framework, but I could issue HTTP requests.
+My personal use-case was needing to decode and verify JWTs in a testing/debugging
+environment where I couldn't easily decode JWTs myself or use a library,
+but I could issue HTTP requests. Since it was a test/debugging environment,
+security wasn't a concern. **Think twice before you use this code in a scenario
+where you care about security.**
 
 ## Endpoints
 
