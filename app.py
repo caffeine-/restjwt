@@ -10,7 +10,7 @@ def json_error(msg):
 
 @app.route('/')
 def index():
-    return send_from_directory(app.root_path, 'README.md')
+    return send_from_directory(app.root_path, 'README.md', mimetype='text/plain')
 
 
 @app.route('/<token>')
