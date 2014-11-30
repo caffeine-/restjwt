@@ -24,7 +24,7 @@ If secret is not given, will default to an empty string.
 
 Returns a JSON including claims and a boolean value of whether verified.
 
-### GET /:secret/verify?secret=:secret
+### GET /:token/verify?secret=:secret
 
 If secret is not given, will default to an empty string.
 
@@ -32,10 +32,10 @@ Returns a 200 response if verified. Otherwise returns an error.
 
 **Does not return claims**
 
-### GET /:secret/claims
+### GET /:token/claims
 
 Returns a JSON with just the claims. DOES NOT VERIFY!
 
-### GET /:secret/header
+### GET /:token/header
 
 Returns a JSON with just the header. DOES NOT VERIFY!
