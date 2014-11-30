@@ -39,3 +39,13 @@ Returns a JSON with just the claims. DOES NOT VERIFY!
 ### GET /:token/header
 
 Returns a JSON with just the header. DOES NOT VERIFY!
+
+## Roadmap
+
+Permit selective verification of optional JWT claims such as:
+
+- iss (Issuer)
+- sub (Subject)
+- aud (Audience)
+- exp (Expiration Time)
+- nbf (Not Before)
