@@ -175,4 +175,3 @@ http://restjwt.herokuapp.com/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0Ij
   - nbf (Not Before)
 - Encode JWTs (why not?)
   - Specify HS256/HS384/HS512
-  - CORS support

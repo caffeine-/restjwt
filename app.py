@@ -1,8 +1,9 @@
 import jwt
 from flask import Flask, jsonify, request, send_from_directory
+from flask.ext.cors import CORS
 
 app = Flask(__name__)
-
+cors = CORS(app)
 
 def json_error(msg):
     return jsonify({'result': 'error', 'message': str(msg)})
